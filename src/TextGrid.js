@@ -110,7 +110,7 @@ const TextGrid = () => {
       borderRadius: '8px',
       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
     }}>
-      <h2 style={{ marginBottom: '20px', fontSize: '24px' }}>Animated Text Grid</h2>
+      {/* <h2 style={{ marginBottom: '20px', fontSize: '24px' }}></h2> */}
       
       <div style={{ marginBottom: '20px' }}>
         {/* Grid Display */}
@@ -140,7 +140,7 @@ const TextGrid = () => {
       {/* Controls */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
         <div>
-          <label style={{ display: 'block', marginBottom: '5px' }}>Text:</label>
+          <label style={{ display: 'block', marginBottom: '5px' }}>Text:(Don't let this box empty, else reload the webpage)</label>
           <input
             type="text"
             value={text}
